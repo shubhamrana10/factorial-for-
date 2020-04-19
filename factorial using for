@@ -1,0 +1,8 @@
+n=int(input("Enter no. only positive "))
+fact=1
+if n<1:
+  print("Cannot find factorial since no. is 0 or negative")
+else:
+ for i in range(n,1,-1):
+  fact*=i
+ print(fact)
